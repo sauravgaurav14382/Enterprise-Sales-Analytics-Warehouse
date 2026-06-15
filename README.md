@@ -1,6 +1,6 @@
-# Data Warehouse and Analytics Project
+# Enterprise-Sales-Analytics-Warehouse
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+Welcome to the **Enterprise-Sales-Analytics-Warehouse Project** repository! 🚀  
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
@@ -37,17 +37,17 @@ This project involves:
 ```
 data-warehouse-project/
 │
-├── data_sources/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── Documentation/                               # Project documentation and architecture details
+├── docs/                               # Project documentation and architecture details
 │   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── Sql_scripts/                            # SQL scripts for ETL and transformations
+├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
@@ -58,7 +58,6 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
-```
 ---
 
-## ☕ Stay Connected
+
