@@ -32,10 +32,9 @@ This project involves:
 - Data Analytics  
 
 ---
-```
+
 ## 📂 Repository Structure
-```
-![Data Architecture](Screenshot 2026-06-15 113948.png)
+![Repository Structure](documentation\Screenshot 2026-06-15 113948.png)
 ---
 
 
