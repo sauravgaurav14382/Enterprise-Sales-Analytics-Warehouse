@@ -1,129 +1,35 @@
-```markdown
-# Enterprise Sales Analytics Warehouse
+# Data Warehouse and Analytics Project
 
-A complete **Data Warehousing and Analytics** solution built using **SQL Server**. This project demonstrates the end-to-end process of designing a modern data warehouse, implementing ETL pipelines, developing dimensional models, and generating business insights through analytical queries.
-
----
-
-## 🚀 Project Overview
-
-This repository showcases the implementation of a scalable data warehouse designed to support business intelligence and reporting requirements. It follows industry-standard practices in **data engineering**, **data modeling**, and **analytics**.
-
-### Key Objectives
-
-- Design a robust data warehouse architecture.
-- Build efficient ETL workflows to process source data.
-- Develop fact and dimension tables optimized for analytics.
-- Generate meaningful insights using SQL-based reporting.
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
-
 ## 🏗️ Data Architecture
 
-The project adopts the **Medallion Architecture** approach, consisting of three layers:
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_architecture.png)
 
-![Data Architecture](images/data_architecture.png)
-
-
-### 🥉 Bronze Layer
-- Stores raw data extracted directly from source systems.
-- Data is loaded into SQL Server without modifications.
-- Preserves the original structure of the source files for auditing and traceability.
-
-### 🥈 Silver Layer
-- Performs data cleansing and transformation processes.
-- Handles data standardization, validation, and normalization.
-- Improves data quality before it is consumed by analytical models.
-
-### 🥇 Gold Layer
-- Contains business-ready datasets structured for reporting.
-- Implements dimensional modeling using a **Star Schema** approach.
-- Supports analytical queries and dashboard development.
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
+## 📖 Project Overview
 
-## 📂 Project Components
+This project involves:
 
-### 1. Data Warehouse Design
-- Implementation of a modern warehouse architecture.
-- Layered approach using Bronze, Silver, and Gold zones.
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-### 2. ETL Development
-- Extraction of data from multiple source systems.
-- Transformation and cleansing of raw datasets.
-- Loading processed data into analytical models.
-
-### 3. Data Modeling
-- Creation of fact tables to store transactional metrics.
-- Development of dimension tables for descriptive attributes.
-- Optimization for high-performance reporting queries.
-
-### 4. Analytics & Reporting
-- SQL queries for business performance analysis.
-- Trend identification and KPI generation.
-- Foundation for integration with visualization tools such as Power BI.
-
----
-
-## 🛠️ Technologies Used
-
-- **SQL Server**
-- **T-SQL**
-- **SQL Server Management Studio (SSMS)**
-- **ETL Processes**
-- **Star Schema Modeling**
-- **Data Warehousing Concepts**
-- **Business Analytics**
-
----
-
-## 📊 Skills Demonstrated
-
-This project highlights practical experience in:
-
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 - SQL Development
-- Data Warehousing
-- ETL Pipeline Development
-- Data Modeling
-- Data Engineering
-- Data Analytics
-- Business Intelligence
+- Data Architect
+- Data Engineering  
+- ETL Pipeline Developer  
+- Data Modeling  
+- Data Analytics  
 
 ---
-
-## 🎯 Use Cases
-
-This repository serves as a portfolio project for:
-
-- Aspiring Data Engineers
-- SQL Developers
-- ETL Developers
-- Data Analysts
-- Business Intelligence Professionals
-- Students exploring modern data warehouse implementations
-
----
-
-## 🔮 Future Enhancements
-
-- Integrate interactive dashboards using **Power BI**.
-- Automate ETL workflows using orchestration tools.
-- Expand analytical models with advanced business metrics.
-- Implement incremental data loading strategies.
-
----
-
-## 🤝 Contributions
-
-Suggestions and improvements are welcome. Feel free to fork the repository and contribute.
-
----
-
-## 📜 License
-
-This project is intended for educational and portfolio purposes.
-
----
-
-### ⭐ If you found this project useful, consider giving it a star!
 ```
