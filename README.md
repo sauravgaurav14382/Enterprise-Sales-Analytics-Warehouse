@@ -22,6 +22,8 @@ This repository showcases the implementation of a scalable data warehouse design
 
 The project adopts the **Medallion Architecture** approach, consisting of three layers:
 
+![Data Architecture](images/data_architecture.png)
+
 
 ### 🥉 Bronze Layer
 - Stores raw data extracted directly from source systems.
